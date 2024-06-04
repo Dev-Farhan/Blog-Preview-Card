@@ -36,14 +36,17 @@
         font-family: "Fiftree", sans-serif;
       }
       .container {
+        position: absolute;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         width: 400px;
-        height: 550px;
+        height: 570px;
         background-color: #fff;
         border: 1px solid #000;
         border-radius: 10px;
+        margin: 0px 15px;
+        box-shadow: 8px 8px;
       }
       .card {
         display: flex;
@@ -59,15 +62,20 @@
       #tag {
         width: 70px;
         background-color: orange;
-        margin: 10px 0px;
+        margin: 30px 0px;
         padding: 4px;
         border-radius: 2px;
         font-weight: 600;
+      }
+      #para {
+        color: hsl(0, 0%, 50%);
+        font-size: 87.5%;
       }
       .profile {
         display: flex;
         align-items: center;
         gap: 10px;
+        margin-top: 10px;
         /* justify-content: center; */
       }
       #profileImg {
@@ -81,8 +89,10 @@
         <img id="itemImg" src="./assets/images/illustration-article.svg" alt />
         <span id="tag">Learning</span>
         <span>Published 21 Dec 2023</span>
-        <h2>HTML & CSS foundation</h2>
-        <p>
+        <h2 style="font-weight: 800; margin: 21px 0px">
+          HTML & CSS foundation
+        </h2>
+        <p id="para">
           This language are the backbone of every website,defining
           structure,content, and presentation.
         </p>
@@ -92,5 +102,6 @@
         </div>
       </div>
     </div>
+    <div class="copy"></div>
   </body>
 </html>
