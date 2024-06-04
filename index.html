@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <style>
+@font-face {
+    font-family: 'Figtree';
+    src: url(' Figtree-VariableFont_wght.ttf');
+    src: url('Figtree-Italic-VariableFont_wght.ttf')  ;
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+}
+
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: rgb(214, 184, 49);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 400px;
+      height: 550px;
+      background-color: #fff;
+      border: 1px solid #000;
+      border-radius: 10px;
+    }
+    .card{
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      margin: 0px 20px;
+      justify-content: center;
+    }
+    #itemImg{
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+#tag{
+  background-color: orange;
+  margin: 10px 0px;
+  padding: 4px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+}
+ #profileImg{
+  width: 50px;
+}
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img id="itemImg" src="./assets/images/illustration-article.svg" alt>
+        <span id="tag">Learning</span>
+        <span>Published 21 Dec 2023</span>
+        <h2>HTML & CSS foundation</h2>
+        <p>This language are the backbone of every website,defining
+          structure,content, and presentation.</p>
+        <div class="profile">
+          <img id="profileImg" src="./assets/images/image-avatar.webp" alt>
+          <span>Greg Hooper</span>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
