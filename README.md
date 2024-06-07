@@ -35,7 +35,7 @@ The challenge is to build out a blog preview card component and get it looking a
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/Dev-Farhan/Blog-Preview-Card)
-- Live Site URL: [Live Demo]([https://blog-preview-card-kk51iptiw-mohammad-farhans-projects.vercel.app/](https://blog-preview-card-sage.vercel.app/))
+- Live Site URL: [Live Demo](https://blog-preview-card-sage.vercel.app/)
 
 ## My Process
 
