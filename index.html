@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <title>Frontend Mentor | Blog preview card</title>
     <link
       rel="icon"
       type="image/png"
@@ -17,91 +16,32 @@
       href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <title>Frontend Mentor | Blog preview card</title>
-
-    <style>
-      /* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 900 */
-
-      @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
-      body {
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background-color: rgb(214, 184, 49);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "Fiftree", sans-serif;
-      }
-      .container {
-        position: absolute;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        width: 400px;
-        height: 570px;
-        background-color: #fff;
-        border: 1px solid #000;
-        border-radius: 10px;
-        margin: 0px 15px;
-        box-shadow: 8px 8px;
-      }
-      .card {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        margin: 0px 20px;
-        justify-content: center;
-      }
-      #itemImg {
-        margin-top: 15px;
-        border-radius: 10px;
-      }
-      #tag {
-        width: 70px;
-        background-color: orange;
-        margin: 30px 0px;
-        padding: 4px;
-        border-radius: 2px;
-        font-weight: 600;
-      }
-      #para {
-        color: hsl(0, 0%, 50%);
-        font-size: 87.5%;
-      }
-      .profile {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-top: 10px;
-        /* justify-content: center; */
-      }
-      #profileImg {
-        width: 50px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img id="itemImg" src="./assets/images/illustration-article.svg" alt />
+    <main class="container">
+      <article class="card">
+        <img
+          id="itemImg"
+          src="./assets/images/illustration-article.svg"
+          alt="Illustration for article"
+        />
         <span id="tag">Learning</span>
         <span>Published 21 Dec 2023</span>
-        <h2 style="font-weight: 800; margin: 21px 0px">
-          HTML & CSS foundation
-        </h2>
+        <h2 class="card-title">HTML & CSS foundation</h2>
         <p id="para">
-          This language are the backbone of every website,defining
-          structure,content, and presentation.
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
         </p>
         <div class="profile">
-          <img id="profileImg" src="./assets/images/image-avatar.webp" alt />
+          <img
+            id="profileImg"
+            src="./assets/images/image-avatar.webp"
+            alt="Profile picture of Greg Hooper"
+          />
           <span>Greg Hooper</span>
         </div>
-      </div>
-    </div>
-    <div class="copy"></div>
+      </article>
+    </main>
   </body>
 </html>
