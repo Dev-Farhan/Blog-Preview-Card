@@ -30,7 +30,7 @@ The challenge is to build out a blog preview card component and get it looking a
 
 ### Screenshot
 
-![Screenshot](./assets/images/screenshot.png)
+![Screenshot](./assets/images/Screenshot.png)
 
 ### Links
 
